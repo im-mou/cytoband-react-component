@@ -1,0 +1,43 @@
+.bandContainer {
+    margin: 10px 0;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+    .band {
+        position: relative;
+        padding: 2.5px 0;
+
+        .cytobandName {
+            opacity: 1 !important;
+            display: none;
+            color: red;
+            margin-top: -25px; /* moves it down */
+            position: absolute;
+            z-index: 1000;
+        }
+
+        &:hover {
+            .cytobandName {
+                display:flex;
+            }
+        }
+    }
+
+    .acen {
+        padding: 1px;
+        background-color: #cd5c5c;
+
+        .cytobandName {
+            display: none;
+        }
+    }
+}
+.header {
+    margin-top: 30px;
+    // text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .4;
+    text-transform: uppercase;
+    font-size: 12px;
+}
