@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Cytoband from './Cytoband';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cytoband />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
